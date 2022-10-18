@@ -1,0 +1,82 @@
+# main links
+main:
+  - title: "Documentation"
+    url: /docs/documentation/
+  - title: "Paper"
+    url: https://doi.org/10.1111/ecog.05266 
+  - title: "Wiki"
+    url: https://github.com/environmentalinformatics-marburg/rsdb/wiki    
+  - title: "Example"
+    url: https://github.com/environmentalinformatics-marburg/rsdb-data/blob/master/README.md    
+  - title: "Source"
+    url: https://github.com/environmentalinformatics-marburg/rsdb    
+  - title: "About"
+    url: /about
+  
+docs:
+  - title: Getting Started
+    url: /docs/getting_started/
+    children:
+      - title: "Server Installation"
+        url: /docs/server_installation/
+      - title: "R Package Installation"
+        url: /docs/r_package_installation/   
+      - title: "WCS"
+        url: /docs/wcs/        
+      - title: "WMS"
+        url: /docs/wms/
+      - title: "WFS"
+        url: /docs/wfs/                 
+  - title: Layers
+    url: /docs/layers/
+    children:
+      - title: "RasterDB"
+        url: /docs/layers_rasterdb/
+      - title: "PointDB"
+        url: /docs/layers_pointdb/ 
+      - title: "PointCloud"
+        url: /docs/layers_pointcloud/ 
+      - title: "VectorDB"
+        url: /docs/layers_vectordb/ 
+      - title: "POI-group"
+        url: /docs/layers_poi_group/ 
+      - title: "ROI-group"
+        url: /docs/layers_roi_group/         
+  - title: "Tasks"
+    url: /docs/tasks/
+    children:
+      - title: "RasterDB"
+        url: /docs/tasks_rasterdb/
+      - title: "PointDB"
+        url: /docs/tasks_pointdb/
+      - title: "PointCloud"
+        url: /docs/tasks_pointcloud/
+      - title: "VectorDB"
+        url: /docs/tasks_vectordb/         
+  - title: Administration
+    url: /docs/administration/
+    children:
+      - title: "Server Operation"
+        url: /docs/server_operation/      
+      - title: "Server Update"
+        url: /docs/server_update/
+  - title: Configuration
+    url: /docs/configuration/  
+    children:
+      - title: "config.yaml"
+        url: /docs/config.yaml/
+      - title: "realm.properties"
+        url: /docs/realm.properties/        
+      - title: "realm_ip.csv"
+        url: /docs/realm_ip.csv/         
+  - title: Development
+    url: /docs/development/    
+    children:
+      - title: "Package"
+        url: /docs/package/        
+      - title: "Java Backend"
+        url: /docs/backend/
+      - title: "Web Frontend"
+        url: /docs/frontend/
+      - title: "R Package"
+        url: /docs/r_package/   
