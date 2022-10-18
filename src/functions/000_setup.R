@@ -14,7 +14,8 @@ require(envimaR)
 
 # Define libraries
 libs <- c("plyr",
-          "terra", 
+          "terra",
+          "raster",
           "sf", 
           "tidyverse", 
           "foreach", 
@@ -22,8 +23,15 @@ libs <- c("plyr",
           "mapview",
           "ggplot2",
           "disdat",
+          "CAST",
+          "ecospat",
+          "Metrics",
+          "hrbrthemes",
+          "viridis",
           "blockCV"
 )
+
+
 
 # Set project specific subfolders
 projectDirList   = c("data/",
@@ -31,6 +39,7 @@ projectDirList   = c("data/",
                      "data/output/",
                      "data/layers/",
                      "data/background/",
+                     "data$AOA",
                      "src/",
                      "src/functions/")
 

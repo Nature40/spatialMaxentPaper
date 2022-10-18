@@ -21,3 +21,15 @@ source(paste0(root_folder, "src/functions/000_setup.R"))
 #---------------------------------
 # execute pipeline
 
+
+run_maxent(region="SA",ncores=60, toggleLayer="")
+
+run_maxent(region="SWI", ncores=60,toggleLayer="togglelayertype=CALC")
+
+run_maxent(region="AWT", ncores=60, toggleLayer="")
+
+run_maxent(region="NSW", ncores=60, toggleLayer="togglelayertype=vegsys")
+
+run_maxent(region="NZ", ncores=60,  toggleLayer=" togglelayertype=age togglelayertype=toxicats")
+
+run_maxent(region="CAN", ncores=60, toggleLayer="togglelayertype=ontveg")
