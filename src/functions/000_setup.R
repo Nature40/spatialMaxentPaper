@@ -39,7 +39,6 @@ projectDirList   = c("data/",
                      "data/output/",
                      "data/layers/",
                      "data/background/",
-                     "data$AOA",
                      "src/",
                      "src/functions/")
 

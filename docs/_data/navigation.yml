@@ -1,82 +1,39 @@
 # main links
 main:
-  - title: "Documentation"
-    url: /docs/documentation/
-  - title: "Paper"
-    url: https://doi.org/10.1111/ecog.05266 
-  - title: "Wiki"
-    url: https://github.com/environmentalinformatics-marburg/rsdb/wiki    
-  - title: "Example"
-    url: https://github.com/environmentalinformatics-marburg/rsdb-data/blob/master/README.md    
+  - title: "Tutorial"
+    url: /docs/060_nceas/
   - title: "Source"
-    url: https://github.com/environmentalinformatics-marburg/rsdb    
+    url: https://github.com/Nature40/spatialMaxent   
   - title: "About"
     url: /about
   
 docs:
-  - title: Getting Started
-    url: /docs/getting_started/
+  - title: Maxent
+    url: /docs/Maxent/
     children:
-      - title: "Server Installation"
-        url: /docs/server_installation/
-      - title: "R Package Installation"
-        url: /docs/r_package_installation/   
-      - title: "WCS"
-        url: /docs/wcs/        
-      - title: "WMS"
-        url: /docs/wms/
-      - title: "WFS"
-        url: /docs/wfs/                 
-  - title: Layers
-    url: /docs/layers/
+      - title: "the original"
+        url: /docs/020_the_original/
+      - title: "spatialMaxent"
+        url: /docs/030_spatialMaxent/   
+      - title: "getting started"
+        url: /docs/040_getting_started/        
+      - title: "troubleshooting"
+        url: /docs/050_troubleshooting/
+                     
+  - title: Tutorial
+    url: /docs/060_nceas/
     children:
-      - title: "RasterDB"
-        url: /docs/layers_rasterdb/
-      - title: "PointDB"
-        url: /docs/layers_pointdb/ 
-      - title: "PointCloud"
-        url: /docs/layers_pointcloud/ 
-      - title: "VectorDB"
-        url: /docs/layers_vectordb/ 
-      - title: "POI-group"
+      - title: "NCEAS data"
+        url: /docs/060_nceas/
+      - title: "Environmental layers and background points"
+        url: /docs/061_bg/
+      - title: "Spatial cross-validation"
+        url: /docs/070_spatial_validation/ 
+      - title: "Spatial Blocks"
+        url: /docs/080_spatial_blocks/ 
+      - title: "Selecting features"
+        url: /docs/090_train_maxent/ 
+      - title: "A spatial model"
         url: /docs/layers_poi_group/ 
-      - title: "ROI-group"
+      - title: "A default model"
         url: /docs/layers_roi_group/         
-  - title: "Tasks"
-    url: /docs/tasks/
-    children:
-      - title: "RasterDB"
-        url: /docs/tasks_rasterdb/
-      - title: "PointDB"
-        url: /docs/tasks_pointdb/
-      - title: "PointCloud"
-        url: /docs/tasks_pointcloud/
-      - title: "VectorDB"
-        url: /docs/tasks_vectordb/         
-  - title: Administration
-    url: /docs/administration/
-    children:
-      - title: "Server Operation"
-        url: /docs/server_operation/      
-      - title: "Server Update"
-        url: /docs/server_update/
-  - title: Configuration
-    url: /docs/configuration/  
-    children:
-      - title: "config.yaml"
-        url: /docs/config.yaml/
-      - title: "realm.properties"
-        url: /docs/realm.properties/        
-      - title: "realm_ip.csv"
-        url: /docs/realm_ip.csv/         
-  - title: Development
-    url: /docs/development/    
-    children:
-      - title: "Package"
-        url: /docs/package/        
-      - title: "Java Backend"
-        url: /docs/backend/
-      - title: "Web Frontend"
-        url: /docs/frontend/
-      - title: "R Package"
-        url: /docs/r_package/   
