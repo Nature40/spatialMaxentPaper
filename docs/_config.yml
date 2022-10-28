@@ -1,7 +1,7 @@
 title: spatialMaxent
 baseurl: "/nature40" # the subpath of your site, e.g. /blog
 url: "https://spatialMaxent.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  nature40
+github_username:  baldl
 repository: 'Nature40/spatialMaxentPaper'
 
 markdown: kramdown
