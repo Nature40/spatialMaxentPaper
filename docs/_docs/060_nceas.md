@@ -9,7 +9,8 @@ It contains six regions of the world: Australian Wet Tropics (AWT), Ontario Cana
 
 In this tutorial we will use the data for the region Ontario in Canada. The data species records can be downloaded via the disdat r-package or over the here. The environmental grids can only be downloaded here. 
 
-	Insert Map of study area
+{% include media4 url="assets/web_pages/study_area_can.html" %} [Full screen version of the map]({{ site.baseurl }}"/assets/web_pages/study_area_can.html"){:target="_blank"}
+
 
 ## Presence only (PO) data
 
