@@ -1,5 +1,5 @@
 title: spatialMaxent
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "spatialMaxentPaper" # the subpath of your site, e.g. /blog
 url: "https://spatialMaxent.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Nature40
 repository: 'Nature40/spatialMaxentPaper'

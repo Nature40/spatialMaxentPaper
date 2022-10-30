@@ -17,3 +17,4 @@ If we are training with the spatialMaxent Graphical User Interface (GUI)
 As we are training quite a few models here 21 models per species for 20 species for 2 different methods we have a total of 840 models to train, therefore we will use  
 
 
+<script src="https://gist.github.com/Baldl/85da22ff487244423370834dd2b93a8a.js"></script>

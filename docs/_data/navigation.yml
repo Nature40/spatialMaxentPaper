@@ -31,7 +31,7 @@ docs:
         url: /docs/080_bg/
       - title: "Spatial validation, variable selection and parameter tuning in one go"
         url: /docs/090_spatialMaxent_short_introduction
-      - title: "A spatial model"
+      - title: "Train spatialMaxent"
         url: /docs/100_train_maxent/ 
-      - title: "A default model"
-        url: /docs/100_train_maxent/          
+      - title: "Default vs. spatial"
+        url: /docs/110_evaluation/          
