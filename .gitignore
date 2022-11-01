@@ -4,3 +4,4 @@
 .Ruserdata
 data/
 .bundle
+.Gemfile.lock
