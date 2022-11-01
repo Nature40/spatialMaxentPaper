@@ -9,3 +9,10 @@ mapview::mapview(CAN)
 can01=df_4326
 spatialBlocks=sb$blocks
 mapview::mapview(spatialBlocks, zcol ="folds")+can01
+
+
+can01 <- sf::read_sf("D:/maxentTutorial/data/samples/can01/can01.gpkg")
+
+mapview::mapview(can01)
+
+
