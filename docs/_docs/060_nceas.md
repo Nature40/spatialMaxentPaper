@@ -33,5 +33,5 @@ For the species `can01` you can see the two combined datasets in the map below. 
 
 
 <div class="media-container">
-  <iframe href="/assets/web_pages/can01.html" frameborder="0"  width=700 height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+  <iframe src="/assets/web_pages/can01.html" frameborder="0"  width=700 height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
     </div>
