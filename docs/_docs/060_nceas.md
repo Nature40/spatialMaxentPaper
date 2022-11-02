@@ -9,12 +9,12 @@ The default parameters of Maxent were determined by modeling 225 species in a to
 It contains six regions of the world: Australian Wet Tropics (AWT), Ontario Canada (CAN), New South Wales (NSW), New Zealand (NZ), South American countries (SA) and Switzerland (SWI).  The species themselves are anonymized and only assigned to a biological group. The data consists of presence-only (PO) records, presence-absence (PA) records, background points (BP) and environmental predictors in the form of environmental layers for each of the regions. The PO and BP data are intended to train the SDM models, and the PA data to evaluate them. For a detailed description of the NCEAS dataset see [Elith et al. (2020)]( https://doi.org/10.17161/bi.v15i2.13384).
 
 In this tutorial we will use the data for the region Ontario in Canada (see map below). The data species records needed for this exercises can be downloaded via the [disdat r-package]( https://cran.r-project.org/web/packages/disdat/index.html) or over [osf]( https://osf.io/kwc4v/). The environmental grids can only be downloaded via osf. 
-{% include media4 url="/spatialMaxentPaper/assets/web_pages/study_area_can.html" %} [Full screen version of the map]({{ site.baseurl }}assets/web_pages/study_area_can.html){:target="_blank"}
+{% include media4 url="/assets/web_pages/study_area_can.html" %} [Full screen version of the map]({{ site.baseurl }}assets/web_pages/study_area_can.html){:target="_blank"}
 
 
 We will not use the PA and PO data to train and test the models as they are not spatial independent from each other the presence points of both datasets show a similar pattern than a random partition of train and test data would provide. Therefore we will combine the presence points from both datasets into one and part the test and train data ourselves.
 
-{% include media4 url="/spatialMaxentPaper/assets/web_pages/PA_PO.html" %} [Full screen version of the map]({{ site.baseurl }}/assets/web_pages/PA_PO.html){:target="_blank"}
+{% include media4 url="/assets/web_pages/PA_PO.html" %} [Full screen version of the map]({{ site.baseurl }}/assets/web_pages/PA_PO.html){:target="_blank"}
 
 ## Get presence records from Presence-Only (PO) and Presence-Absence (PA) data
 
@@ -29,9 +29,17 @@ The script below downloads the data and saves all presence only records for each
 
 For the species `can01` you can see the two combined datasets in the map below. In the next exercise we will then part them into spatial folds. 
 
-{% include media4 url="/spatialMaxentPaper/assets/web_pages/can01.html" %} [Full screen version of the map]({{ site.baseurl }}/assets/web_pages/can01.html){:target="_blank"}
+{% include media4 url="/assets/web_pages/can01.html" %} [Full screen version of the map]({{ site.baseurl }}/assets/web_pages/can01.html){:target="_blank"}
 
 
+<div class="media-container">
+  <iframe src="/assets/web_pages/can01.html" frameborder="0"  width=700 height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    </div>
+	
+	
+<div class="media-container">
+  <iframe src="/spatialMaxentPaper/assets/web_pages/can01.html" frameborder="0"  width=700 height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    </div>
 	
 <div class="media-container">
   <iframe src="{{ baseurl | my_variable }}" frameborder="0"  width=700 height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
