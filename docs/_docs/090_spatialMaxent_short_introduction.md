@@ -13,14 +13,15 @@ First of all the data structure changes slightly insofar as it is necessary to p
 
 The csv file we created on the previous pages are already in the right format. The first three columns contain the species, longitude and latitude and the fourth the folds created with the [blockCV package]( https://cran.r-project.org/web/packages/blockCV/index.html). After these mandatory columns all columns with environmental information follow. This should look like this:
 
-<img src="{{ site.url }}{{ site.baseurl }}/../assets/images/data_format.png">
 
+![]({{ site.baseurl }}/assets/images/data_format.png)
 
 ### Spatial Validation
 
 The spatial validation is a new option that can be chosen in the `basic tab` as `Replicated run type`. If the `spatial crossvalidate` option is used the setting of `replicates` will have no effect anymore as the number of replicates will be set to the number of distinct folds in the sample data.
 
-<img src="{{ site.url }}{{ site.baseurl }}/../assets/images/settings1.png">
+
+![]({{ site.baseurl }}/assets/images/settings1.png)
 
 ### Tuning options
 The nice thing about spatialMaxent is that all tuning tasks are available at once with just a few clicks. In addition to the selection of the replication multiplier and the features, a variable selection is also carried out. The following functionalities are available in spatialMaxent: Forward-Variable-Selection, Forward-Feature-Selection and regularization multiplier tuning. All the tuning procedures can be found in the GUI in a new tab of the settings called `spatial`. Each of the steps variable selection, feature selection and regularization multiplier tuning can be omitted but we highly recommend to do all of them.
@@ -37,7 +38,8 @@ The regularization multiplier tuning has three input parameters: The lowest regu
 
 Which model is the best one can be either determined based on the `test gain` or the `test auc` value (`decision parameter`).
 
-<img src="{{ site.url }}{{ site.baseurl }}/../assets/images/settings2.png">
+
+![]({{ site.baseurl }}/assets/images/settings2.png)
 #### The `allModels` setting
 You can set the `allModels`setting to true if you want to generate output not only for the last model with the selected variables, features and regularization multiplier but for each step of the FFS, FVS and regularization multiplier tuning. **Be very careful with this setting!** If it is set to true depending on your input data huge amounts of data will be generated and the processing time will increase considerably. It is not recommended for the output of large rasters and high amount of variables.
 
