@@ -1,6 +1,6 @@
 ---
 title: NCEAS data
-my_variable: "/assets/web_pages/can01.html"
+my_variable: "/spatialMaxentPaper/assets/web_pages/can01.html"
 header:
   image: "/assets/images/title_image.jpg"
   caption: "Photo credit: Herr Olsen [CC BY-NC 2.0] via [flickr.com](https://www.flickr.com/photos/herrolsen/26966727587/)"
@@ -38,7 +38,7 @@ For the species `can01` you can see the two combined datasets in the map below. 
 	
 	
 <div class="media-container">
-  <iframe src="spatialMaxentPaper/assets/web_pages/can01.html" frameborder="0"  width=700 height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+  <iframe src="/spatialMaxentPaper/assets/web_pages/can01.html" frameborder="0"  width=700 height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
     </div>
 	
 <div class="media-container">
