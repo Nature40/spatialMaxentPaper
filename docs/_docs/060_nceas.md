@@ -13,7 +13,7 @@ In this tutorial we will use the data for the region Ontario in Canada (see map 
 
 We will not use the PA and PO data to train and test the models as they are not spatial independent from each other the presence points of both datasets show a similar pattern than a random partition of train and test data would provide. Therefore we will combine the presence points from both datasets into one and part the test and train data ourselves.
 
-{% include media4 url="assets/web_pages/PA_PO.html" %} [Full screen version of the map]({{ site.baseurl }}assets/web_pages/PA_PO.html){:target="_blank"}
+{% include media4 url="docs/assets/web_pages/PA_PO.html" %} [Full screen version of the map]({{ site.baseurl }}assets/web_pages/PA_PO.html){:target="_blank"}
 
 ## Get presence records from Presence-Only (PO) and Presence-Absence (PA) data
 
