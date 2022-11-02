@@ -31,5 +31,5 @@ For the species `can01` you can see the two combined datasets in the map below. 
 {% include media4 url="../../assets/web_pages/can01.html" %} [Full screen version of the map]({{ site.baseurl }}assets/web_pages/can01.html){:target="_blank"}
 
 
-{% include media4 url="../../assets/web_pages/can01.html" %} [Full screen version of the map]("/assets/web_pages/can01.html"){:target="_blank"}
+{% include media4 url=../assets/web_pages/can01.html %} [Full screen version of the map](../assets/web_pages/can01.html){:target="_blank"}
 
