@@ -1,6 +1,6 @@
 title: spatialMaxent
 # for github pages:
-baseurl: "/spatialMaxentPaper/" # the subpath of your site, e.g. /blog
+baseurl: "/spatialMaxentPaper" # the subpath of your site, e.g. /blog
 # for glocal jekyll page
 #baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://spatialMaxent.github.io" # the base hostname & protocol for your site, e.g. http://example.com
