@@ -32,20 +32,3 @@ For the species `can01` you can see the two combined datasets in the map below. 
 {% include media4 url="/assets/web_pages/can01.html" %} [Full screen version of the map]({{ site.baseurl }}/assets/web_pages/can01.html){:target="_blank"}
 
 
-<div class="media-container">
-  <iframe src="/assets/web_pages/can01.html" frameborder="0"  width=700 height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-    </div>
-	
-	
-<div class="media-container">
-  <iframe src="/spatialMaxentPaper/assets/web_pages/can01.html" frameborder="0"  width=700 height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-    </div>
-	
-<div class="media-container">
-  <iframe src="{{ baseurl | my_variable }}" frameborder="0"  width=700 height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-    </div>	
-	
-	
-<div class="media-container">
-  <iframe src="https://nature40.github.io/spatialMaxentPaper/assets/web_pages/PA_PO.html" frameborder="0"  width=700 height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-    </div>	
