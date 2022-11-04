@@ -1,5 +1,6 @@
 ---
 title: Train spatialMaxent models
+driveId: 1jNdPPfUeYyHhbYpO4Z11NSETqropOBlt/preview
 header:
   image: "/assets/images/title_image.jpg"
   caption: "Photo credit: Herr Olsen [CC BY-NC 2.0] via [flickr.com](https://www.flickr.com/photos/herrolsen/26966727587/)"
@@ -8,12 +9,12 @@ header:
 
 We will now train two models for each species in the Canada dataset. One with a random 5-fold cross-validation and the maxent default settings (default model) and one with spatial cross-validation and forward-variable-selection, forward-feature-selection and regularization multiplier tuning (spatial model). Both models are trained and evaluated on the exact same data and we will compare their performance in the next section. 
 
-As we are doing a Forward Fold Metric Estimation as described [here](), we will need to create 21 models for each species. 
+As we are doing a Forward Fold Metric Estimation as described [here](../070_spatial_blocks), we will need to create 21 models for each species. 
 
 ## spatialMaxent GUI
 Watch the video below to see how to train the maxent model for the species `can01` and the fold can01_01 in the spatialMaxent GUI.
 
-*include video
+{% include googleDrivePlayer.html id=page.driveId %}
 
 ## spatialMaxent from the command line
 

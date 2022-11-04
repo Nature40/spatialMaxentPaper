@@ -15,7 +15,7 @@ docs:
         url: /docs/020_the_original/
       - title: "spatialMaxent"
         url: /docs/030_spatialMaxent/   
-      - title: "getting started"
+      - title: "Setup"
         url: /docs/040_getting_started/        
       - title: "troubleshooting"
         url: /docs/050_troubleshooting/
