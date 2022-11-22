@@ -8,10 +8,25 @@ The default parameters of Maxent were determined by modeling 225 species in a to
 It contains six regions of the world: Australian Wet Tropics (AWT), Ontario Canada (CAN), New South Wales (NSW), New Zealand (NZ), South American countries (SA) and Switzerland (SWI).  The species themselves are anonymized and only assigned to a biological group. The data consists of presence-only (PO) records, presence-absence (PA) records, background points (BP) and environmental predictors in the form of environmental layers for each of the regions. The PO and BP data are intended to train the SDM models, and the PA data to evaluate them. For a detailed description of the NCEAS dataset see [Elith et al. (2020)]( https://doi.org/10.17161/bi.v15i2.13384).
 
 In this tutorial we will use the data for the region Ontario in Canada (see map below). The data species records needed for this exercises can be downloaded via the [disdat r-package]( https://cran.r-project.org/web/packages/disdat/index.html) or over [osf]( https://osf.io/kwc4v/). The environmental grids can only be downloaded via osf. 
+
+The data preparation of the species presence records and background points are shown in the [exercise below](http://127.0.0.1:4000/spatialMaxentPaper/docs/060_nceas/#get-presence-records-from-presence-only-po-and-presence-absence-pa-data). You can either follow this workflow or download the prepared dataset for the presence-only records and background points [here]( https://github.com/Nature40/spatialMaxent/blob/main/tutorialData.zip?raw=true) and [skip directly to the spatialMaxent modeling]( https://nature40.github.io/spatialMaxentPaper/docs/090_spatialMaxent_short_introduction/). 
+
+If you are skipping directly to the modeling workflow make sure that you have also downloaded the environmental grids via [osf]( https://osf.io/kwc4v/) and that you have stored  your data according to the following folder structure to run the tutorial smoothly.
+```
+src
+└─ functions
+data
+└─ samples
+└─ output    
+└─ layers
+└─ background
+```
+
+
 {% include media4 url="/assets/web_pages/study_area_can.html" %} [Full screen version of the map]({{ site.baseurl }}assets/web_pages/study_area_can.html){:target="_blank"}
 
 
-We will not use the PA and PO data to train and test the models as they are not spatial independent from each other the presence points of both datasets show a similar pattern than a random partition of train and test data would provide. Therefore we will combine the presence points from both datasets into one and part the test and train data ourselves.
+We will not use the PA and PO data to train and test the models as they are not spatial independent from each other the presence points of both datasets show a similar pattern that a random partition of train and test data would provide. Therefore we will combine the presence points from both datasets into one and part the test and train data ourselves.
 
 {% include media4 url="/assets/web_pages/PA_PO.html" %} [Full screen version of the map]({{ site.baseurl }}/assets/web_pages/PA_PO.html){:target="_blank"}
 
